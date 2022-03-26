@@ -123,3 +123,23 @@ html {
     border: #3882f6 2px solid;
     border-radius: 10%;
 }
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    background-color: var(--light-color-3);
+}
+
+.quote{
+    font-size: var(--quote-font-size);
+    font-weight: 100;
+    max-width: 540px;
+}
+
+.author{
+    font-size: var(--header-logo-font-size);
+    margin-left: 240px;
+}
