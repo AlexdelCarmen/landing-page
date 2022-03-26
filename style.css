@@ -139,6 +139,12 @@ a:hover {
 .info-image{
     width: 200px;
     height: 200px;
+
+}
+
+.info-image img {
+    width: 199px;
+    height: auto;
     border: #3882f6 2px solid;
     border-radius: 10px;
 }
